@@ -1,0 +1,49 @@
+html, body, div, p, td, a, span {
+	font-family: verdana, sans-serif ;
+	font-size: small;
+	color: #000 ;
+	background-color: #fff ;
+}
+div.header-left {
+	position: absolute ;
+	left: 15% ;
+	width: 70% ;
+	top: 20% ;
+	font-size: large ;
+	text-align: left ;
+	vertical-align: bottom ;
+	letter-spacing: 0.25em ;
+	line-height: 30px ;
+}
+div.header-right {
+	position: absolute ;
+	right: 15% ;
+	top: 20% ;
+	width: 25% ;
+	text-align: right;
+	vertical-align: bottom ;
+	line-height: 30px ;
+}
+div.body {
+	position: absolute ;
+	left: 15% ;
+	width: 70% ;
+	top: 30% ;
+}
+p.footer {
+	padding-top: 3em ;
+}
+span {
+	letter-spacing: 0 ;
+}
+span.usd{
+	vertical-align: top ;
+	font-size: x-small;
+}
+span.space0 {
+	font-size: medium;
+}
+span.bullet {
+	color: #fff ;
+	background-color: #000 ;
+}
